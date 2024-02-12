@@ -40,24 +40,24 @@ The output is a line for each test case, with the "run number#" then the status 
 >3                               
 >Input Set #1: YES                                      
 >Input Set #2: NO                                  
->Input Set #3: NO
->1
->1 0 1 0
->1
->1010
->1
->The judges are mean!
->1
->The judges are good!
->0                                                            
+>Input Set #3: NO                                 
+>1                                                  
+>1 0 1 0                                          
+>1                                          
+>1010                                          
+>1                                         
+>The judges are mean!                                      
+>1                                                
+>The judges are good!                                             
+>0                                                                   
 
->**Output**
+>**Output**                            
 >Run #1: Accepted                                     
 >Run #2: Wrong Answer                                    
 >Run #3: Persentation Error                                 
->Run #4: Wrong Answer
->Run #5: Presentaion Error
->Run #6: Presentation Error                                                                         
+>Run #4: Wrong Answer                                       
+>Run #5: Presentaion Error                                          
+>Run #6: Presentation Error                                                                            
 
 ### Problem solution
 To determine if the submission is "Accepted", each character in the submission is compared to the template. If they match, the submission is accepted. To determine if the submission is "Presentation Error", both the submission and the template have all their characters removed. They are then compared as for "Accepted", if they match then the submission is presentation eror. If none of the above are true, the submission if "Wrong Answer".
