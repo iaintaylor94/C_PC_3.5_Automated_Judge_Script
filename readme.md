@@ -12,6 +12,8 @@ The input contains a single line with a digit (n < 100) that signifies the numbe
 
 The output is a line for each test case, with the "run number#" then the status of the input.
 
+The textbook has an incorrect solution for run #3.
+
 
 ### Example 
 >**Input**
